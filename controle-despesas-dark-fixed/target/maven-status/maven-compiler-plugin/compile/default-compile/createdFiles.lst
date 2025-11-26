@@ -1,0 +1,5 @@
+com\despesas\model\Despesa.class
+com\despesas\dao\DespesaDAO.class
+com\despesas\util\DatabaseHelper.class
+com\despesas\main\Main.class
+com\despesas\controller\TelaPrincipalController.class
