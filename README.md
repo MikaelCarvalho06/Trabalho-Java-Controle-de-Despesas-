@@ -15,10 +15,15 @@ SceneBuilder (opcional para editar o layout FXML)
 🖥️ Requisitos para rodar
 
 Java JDK 17 instalado
+
 Verifique com: java -version
+
 Maven instalado
+
 Verifique com: mvn -version
+
 MySQL instalado e rodando
+
 Usuário: root
 Senha: (sua senha no mysql)
 
