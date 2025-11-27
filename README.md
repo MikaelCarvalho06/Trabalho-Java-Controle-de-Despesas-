@@ -34,3 +34,17 @@ Como executar o projeto:
 -Execute:
 mvn clean compile
 mvn exec:java
+
+BANCO DE DADOS MYSQL
+
+CREATE DATABASE IF NOT EXISTS despesasdb;
+USE despesasdb;
+
+CREATE TABLE IF NOT EXISTS despesas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    descricao VARCHAR(100),
+    categoria VARCHAR(50),
+    valor DECIMAL(10,2),
+    data DATE
+);
+
